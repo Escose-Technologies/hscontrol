@@ -1,9 +1,7 @@
 import Link from 'next/link';
 import Image from "next/image";
 
-const Navbar = () => {
-  return (
-<header>
+{/* <header>
 <nav
    className="
      flex flex-wrap
@@ -83,6 +81,48 @@ const Navbar = () => {
        </li>
      </ul>
    </div>
+</nav>
+</header> */}
+
+const Navbar = () => {
+  return (
+
+<header className="main-header clearfix  flex flex-wrap
+     items-center
+     justify-between
+     w-full
+     py-4
+     md:py-0
+     px-4 z-100" 
+    role="header"
+>
+<div className="logo">
+  <Link href="/">
+     <Image
+        src="/hscontrol.png"
+        alt="HS Control Logo"
+        width={170}
+        height={30}
+        priority
+      />
+  </Link>
+</div>
+<a href="#menu" className="menu-link"><i className="fa fa-bars"></i></a>
+<nav id="menu" className="main-nav" role="navigation">
+  <ul className="main-menu">
+    <li><a href="#section1">Home</a></li>
+    <li className="has-submenu"><a href="#section2">About Us</a>
+      <ul className="sub-menu">
+        <li><a href="#section2">Who we are?</a></li>
+        <li><a href="#section3">What we do?</a></li>
+        <li><a href="#section3">How it works?</a></li>
+        <li><a href="https://templatemo.com/about" rel="sponsored" className="external">External URL</a></li>
+      </ul>
+    </li>
+    <li><a href="#section4">Courses</a></li>
+    <li><a href="#section6">Contact</a></li>
+    <li><a href="https://templatemo.com" className="external">External</a></li>
+  </ul>
 </nav>
 </header>
   );

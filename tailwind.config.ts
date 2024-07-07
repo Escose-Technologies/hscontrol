@@ -21,6 +21,9 @@ const config: Config = {
       },
       backgroundColor: {
         "c-nevy-blue": "rgb(244 253 255)"
+      },
+      zIndex: {
+        '100': '100',
       }
     },
   },

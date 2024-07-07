@@ -34,7 +34,7 @@ const cards = [
 ]
 const ProductHeading = () => {
   return (
-    <section className='section features relative z-20 overflow-hidden after:-z-10 mt-20'>
+    <section className='section features relative z-20 overflow-hidden after:-z-10'>
         <div className="container relative z-30 m-auto ">
             <div className="row items-end justify-between pb-12">
                 <div className="lg:col-8 xl:col-6">
