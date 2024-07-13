@@ -1,12 +1,10 @@
-import Image from "next/image";
 import ProductHeading from "@/components/products-heading";
 import ProductCards from "@/components/product-cards";
-import CardWithImage from "@/components/card-with-image";
 import PeopleSayAboutUs from "@/components/people-say-about-us";
-import HowCanIHelpYou from "@/components/how-can-we-help-u";
-import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import ContactUsNow from "@/components/contact-us-know";
+import KnowMoreProducts from "@/components/know-more-products";
+import HowCanIHelpYou from "@/components/how-can-we-help-u";
 
 export default function Home() {
   return (
@@ -14,9 +12,10 @@ export default function Home() {
      <Hero />
      <ProductCards />
      <ProductHeading />
+     <KnowMoreProducts />
+     <HowCanIHelpYou />
      <PeopleSayAboutUs />
      <ContactUsNow />
-     <Footer />
     </main>
   );
 }

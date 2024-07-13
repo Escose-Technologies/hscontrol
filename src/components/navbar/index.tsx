@@ -93,7 +93,7 @@ const Navbar = () => {
      w-full
      py-4
      md:py-0
-     px-4 z-100" 
+     px-4" 
     role="header"
 >
 <div className="logo">
