@@ -110,7 +110,7 @@ const Navbar = () => {
 <a href="#menu" className="menu-link"><i className="fa fa-bars"></i></a>
 <nav id="menu" className="main-nav" role="navigation">
   <ul className="main-menu">
-    <li><a href="#section1">Home</a></li>
+    <li><Link href="/">Home</Link></li>
     <li className="has-submenu"><a href="#section2">About Us</a>
       <ul className="sub-menu">
         <li><a href="#section2">Who we are?</a></li>
@@ -121,7 +121,7 @@ const Navbar = () => {
     </li>
     <li><a href="#section4">Courses</a></li>
     <li><a href="#section6">Contact</a></li>
-    <li><a href="https://templatemo.com" className="external">External</a></li>
+    <li><Link href='contact-us'>Contact</Link></li>
   </ul>
 </nav>
 </header>

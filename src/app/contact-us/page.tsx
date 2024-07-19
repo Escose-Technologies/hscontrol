@@ -73,6 +73,9 @@ const Contact = () => {
           <ContactForm handleSuccessToster={handleSuccessToster} />
         </div>
       </div>
+      <div className='section' id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3505.389099340218!2d77.27203077549694!3d28.52802217572203!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDMxJzQwLjkiTiA3N8KwMTYnMjguNiJF!5e0!3m2!1sen!2sin!4v1720926895304!5m2!1sen!2sin" width="100%" height="422px"></iframe>
+      </div>
     </>
   );
 };

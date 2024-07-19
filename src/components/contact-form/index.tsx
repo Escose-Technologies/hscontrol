@@ -38,9 +38,10 @@ const ContactForm = ({ handleSuccessToster }) => {
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <ul className="flex-[1] flex flex-col justify-start mr-10">
           {[
-            { title: 'location', value: 'Bengalore, India' },
-            { title: 'phone', value: '+91 7568288997' },
-            { title: 'Email', value: 'info@escose.com' },
+            { title: 'Physical location', value: 'HS Control & Systems; C-19, First Floor, DDA Sheds, Okhla Phase I, Okhla Industrial Estate, New Delhi - 110020' },
+            { title: 'Work Hours', value: 'Monday to Saturday: 9.30 am – 7pm' },
+            { title: 'Email', value: 'info@hscontrolsystems.com' },
+            { title: 'Phone Numbers', value: "+91-9772766137 / 8005623209 "},
           ].map((item) => (
             <li key={item.title} className="mb-10">
               <h2 className={`${styles.heading3} capitalize`}>{item.title}</h2>
